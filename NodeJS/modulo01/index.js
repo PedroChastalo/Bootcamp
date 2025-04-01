@@ -49,7 +49,7 @@ server.delete('/cursos/:index', (req, res) => {
 
     cursos.splice(index, 1);
 
-    return res.json({message: 'Curso deletado com sucehsso!'});
+    return res.json({message: 'Curso delddetado com sucehsso!'});
 })
 
 server.listen(3000);
